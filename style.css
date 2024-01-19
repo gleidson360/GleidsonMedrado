@@ -6,11 +6,24 @@
 
 body {
     align-items: center;
-    background: #24292e;
     display: flex;
     height: 100vh;
     justify-content: center;
     margin: 0;
+    transition: background-color 1s ease;
+}
+
+.gradient-1 {
+    background: linear-gradient(45deg, #6D5BBA, #FF758C);
+}
+  
+
+.gradient-2 {
+    background: linear-gradient(45deg, #FFD3A5, #FD6585);
+}
+
+.gradient-3 {
+    background: linear-gradient(45deg, #868F96, #596164);
 }
 
 main {
